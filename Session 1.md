@@ -100,7 +100,7 @@ It will get something like that:
 
 So the PPID doesn't change by changing the executable or the instance, it changes when you change the parent of the process (e.g. powershell)
 
-![pic4](Attachments/Session-1/pic4.png)
+![pic5](Attachments/Session-1/pic5.png)
 
 In Unix systems and Mac, you can type that command in your terminal and it will show your PPID
 ```shell
