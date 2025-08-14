@@ -14,11 +14,14 @@ then tried to show everything in my folder
 ls
 ```
 ![[Screenshot 2025-08-14 161356.png]]
+(Attachments/Screenshot%2025-08-14%161356.png)
 We can notice that I have `main.exe` that is an executable program
 If I made it run, every time I make it run I am creating an instance from the original executable program, which has a unique id.
 ![[Screenshot 2025-08-14 161613.png]]
+(Attachments/Screenshot%2025-08-14%161613..png)
 If I made my code print out the process id (PID) you will see something like this.
 ![[Screenshot 2025-08-14 162756.png]]
+(Attachments/Screenshot%2025-08-14%162756.png)
 You will notice that every one had a unique id.
 What is the syntax?
 ```c
@@ -92,6 +95,7 @@ It will get something like that:
 ![[Screenshot 2025-08-14 172317.png]]
 So the PPID doesn't change by changing the executable or the instance, it changes when you change the parent of the process (e.g. powershell)
 ![[Screenshot 2025-08-14 173129.png]]
+(Attachments/Screenshot%2025-08-14%173129.png)
 
 In Unix systems and Mac, you can type that command in your terminal and it will show your PPID
 ```shell
