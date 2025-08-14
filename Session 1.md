@@ -96,7 +96,7 @@ int main() {
 ```
 It will get something like that:
 
-![pic4](pic4.png)
+![pic4](Attachments/Session-1/pic4.png)
 
 So the PPID doesn't change by changing the executable or the instance, it changes when you change the parent of the process (e.g. powershell)
 
